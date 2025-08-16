@@ -485,12 +485,14 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 3rem;
+    max-width: 100%;
 }
 
 .articles-list {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    width: 100%;
 }
 
 .sidebar {
